@@ -1,0 +1,39 @@
+name: Bug Report
+description: Report a bug
+title: "[BUG] "
+labels: ["Bug 🐞"]
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to Reproduce
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: OS
+      options:
+        - Windows
+        - macOS
+        - Linux

@@ -1,0 +1,32 @@
+name: Feature Request
+description: Suggest a new feature
+labels: ["Feature 🌠"]
+
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem are you trying to solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: What are you proposing to solve the problem?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: One checkbox per alternative, checked if accepted, with an accepted/rejected reason.
+      value: |
+        - [ ] Do nothing / rely on convention or discipline — Accepted/Rejected: reason
+        - [ ] A partial or manual fix instead of the proposed solution — Accepted/Rejected: reason
+        - [ ] A different approach entirely (describe below) — Accepted/Rejected: reason
+    validations:
+      required: true
