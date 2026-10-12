@@ -1,5 +1,6 @@
 name: Feature Request
 description: Suggest a new feature
+title: "[FEATURE] "
 labels: ["Feature 🌠"]
 
 body:
@@ -30,3 +31,17 @@ body:
         - [ ] A different approach entirely (describe below) — Accepted/Rejected: reason
     validations:
       required: true
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - Infra/CI
+        - API
+        - Trading
+        - Ledger
+        - Web
+        - Documentation
+        - BCM
+        - BCPM

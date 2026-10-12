@@ -1,0 +1,38 @@
+name: Tech Debt
+description: Anything unnecessary or degrading to the system
+title: "[TECH DEBT] "
+labels: ["Tech Debt 💳"]
+
+body:
+  - type: textarea
+    id: debt
+    attributes:
+      label: The Debt
+      description: What's unnecessary, degrading, or accruing cost?
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact / Risk
+      description: What does leaving it in place cost us?
+
+  - type: textarea
+    id: remediation
+    attributes:
+      label: Proposed Remediation
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - Infra/CI
+        - API
+        - Trading
+        - Ledger
+        - Web
+        - Documentation
+        - BCM
+        - BCPM
