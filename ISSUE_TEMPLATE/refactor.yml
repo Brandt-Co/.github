@@ -1,0 +1,35 @@
+name: Refactor
+description: Changes to existing functionality
+title: "[REFACTOR] "
+labels: ["Refactor 🪸"]
+
+body:
+  - type: textarea
+    id: current
+    attributes:
+      label: Current State
+      description: What exists today, and why does it need changing?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed Change
+      description: What should it become? Behavior must stay the same unless noted.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - Infra/CI
+        - API
+        - Trading
+        - Ledger
+        - Web
+        - Documentation
+        - BCM
+        - BCPM

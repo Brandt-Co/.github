@@ -37,3 +37,17 @@ body:
         - Windows
         - macOS
         - Linux
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - Infra/CI
+        - API
+        - Trading
+        - Ledger
+        - Web
+        - Documentation
+        - BCM
+        - BCPM

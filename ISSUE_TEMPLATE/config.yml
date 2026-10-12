@@ -1,6 +1,6 @@
 blank_issues_enabled: false
 
 contact_links:
-  - name: Questions
-    url: https://github.com/kylo-bob/bc-api/discussions
-    about: Ask questions here.
+  - name: Planning board
+    url: https://github.com/orgs/Brandt-Co/projects/1
+    about: Triage, prioritize, and track work on the B&C planning board.

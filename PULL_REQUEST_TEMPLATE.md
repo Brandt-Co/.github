@@ -1,16 +1,21 @@
 ## Summary
 
-Describe the change
+What changed and why.
 
-## Type
+## Type / Scope
 
-<!-- pick one: bug fix | feature | refactor | docs -->
+- Type: Task 💪 | Bug 🐞 | Feature 🌠 | Refactor 🪸 | Tech Debt 💳
+- Scope: Infra/CI | API | Trading | Ledger | Web | Documentation | BCM | BCPM
 
 ## Related Issue
 
-Fixes #
+Closes/Relates #
 
 ## Testing
 
-- Unit tests: <path/to/test_file.py>
-- Manual testing: <REPL / marimo notebook steps, or N/A>
+- Automated: <pytest path | `node --test` | N/A> — pass/fail
+- Manual: <REPL / marimo | psql + idempotent re-apply | browser steps | N/A>
+
+## Migration / Deploy
+
+<!-- schema change? backfill? env/.env change? prod (K4SPR) steps? or "None" -->
